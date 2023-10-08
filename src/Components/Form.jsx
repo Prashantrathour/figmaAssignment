@@ -21,7 +21,7 @@ export default function Form() {
    
      justifyContent={"center"}
      alignItems={"center"}
-      bg={useColorModeValue("gray.50", "gray.800")}
+      // bg={useColorModeValue("gray.50", "gray.800")}
       marginTop={"43px"}
     >
       <Stack
@@ -93,9 +93,9 @@ export default function Form() {
     Topic of the Session:
   </Text>
   <Flex flexFlow={"wrap"} rowGap={"24px"} columnGap={"10px"} >
-    <CustomDiv/>
-    <CustomDiv/>
-    <CustomDiv/>
+    <CustomDiv text={"Business Leadership"}/>
+    <CustomDiv text={"Motivation During Crisis"}/>
+    <CustomDiv text={"Spirituality"}/>
     </Flex>
   
         </Stack>
@@ -127,9 +127,9 @@ export default function Form() {
     </Flex>
   );
 }
-const CustomDiv = () => (
+const CustomDiv = ({text}) => (
     <Box
-      width="193px"
+      
       height="31px"
       borderRadius="50px"
       border="1px solid #AEB7C3"
@@ -162,10 +162,10 @@ const CustomDiv = () => (
           lineHeight="21px"
           letterSpacing="0em"
           textAlign="center"
-          width="145px"
+         ml="5px"
           height="21px"
         >
-          Your Text Here
+          {text}
         </Text>
       </Flex>
     </Box>

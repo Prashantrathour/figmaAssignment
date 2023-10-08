@@ -230,10 +230,10 @@ function Sessions() {
             </Box>
           </Box>
         </Box>
-        <Box position={"absolute"} top={"950px"} left={"323.34px"}>
+        <Box position={"absolute"} top={"950px"} left={"400.34px"}>
           <Arraowup />
         </Box>
-        <Box position={"absolute"} top={"950px"} right={"323.34px"}>
+        <Box position={"absolute"} top={"950px"} right={"400.34px"}>
           <Arraowup />
         </Box>
       </Box>

@@ -138,41 +138,42 @@ function Headers() {
           </Box>
         </Box>
       </Box>
-      <Box position="absolute" top="643px" left="-20.5px" overflow={"hidden"} width={"100wh"} boxSizing={"border-box"}>
-      <svg width="100wv" height="489" viewBox="0 0 1440 489" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M-9.00001 182.564C-9.00001 182.564 388 -138.54 723 70.9603C1058 280.461 1568 155.035 1568 155.035L1444.5 489C883 253 151.5 236.5 -20.5 324C-20.5 208.5 -9.00001 182.564 -9.00001 182.564Z" fill="#FFDE00"/>
-</svg>
-      </Box>
-      <Box position="absolute" top="599px" left="-3">
-        <svg
-          width="100wv"
-          height="434"
-          viewBox="0 0 1440 434"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M-9.00001 183C-9.00001 183 388 -138.104 723 71.3959C1058 280.896 1568 155.47 1568 155.47L1453 433.5C891.5 197.5 150 258.5 -22 346C-22 230.5 -9.00001 183 -9.00001 183Z"
-            fill="#538DD7"
-          />
-        </svg>
-        {/* Your content goes here */}
-      </Box>
-      <Box position="absolute" top="615.44px" left="-22px">
-        <svg
-          width="100wv"
-          height="460"
-          viewBox="0 0 1440 460"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            opacity="0.8"
-            d="M-3 159.471C-3 159.471 257 -134.104 592 75.3963C927 284.897 1437 159.471 1437 159.471V256.396C1437 256.396 1825 594 1266 398C707 202 -3 256.396 -3 256.396V159.471Z"
-            fill="#538DD7"
-          />
-        </svg>
-      </Box>
+      <Box position="absolute" top="643px" left="-20.5px" overflow="hidden" width="100%" minWidth="1440px" boxSizing="border-box">
+  <svg width="100%" height="489" viewBox="0 0 1440 489" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M-9.00001 182.564C-9.00001 182.564 388 -138.54 723 70.9603C1058 280.461 1568 155.035 1568 155.035L1444.5 489C883 253 151.5 236.5 -20.5 324C-20.5 208.5 -9.00001 182.564 -9.00001 182.564Z" fill="#FFDE00"/>
+  </svg>
+</Box>
+<Box position="absolute" top="599px" left="-3" width="100%" minWidth="1440px">
+  <svg
+    width="100%"
+    height="434"
+    viewBox="0 0 1440 434"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M-9.00001 183C-9.00001 183 388 -138.104 723 71.3959C1058 280.896 1568 155.47 1568 155.47L1453 433.5C891.5 197.5 150 258.5 -22 346C-22 230.5 -9.00001 183 -9.00001 183Z"
+      fill="#538DD7"
+    />
+  </svg>
+  {/* Your content goes here */}
+</Box>
+<Box position="absolute" top="615.44px" left="-22px" width="100%" minWidth="1440px">
+  <svg
+    width="100%"
+    height="460"
+    viewBox="0 0 1440 460"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      opacity="0.8"
+      d="M-3 159.471C-3 159.471 257 -134.104 592 75.3963C927 284.897 1437 159.471 1437 159.471V256.396C1437 256.396 1825 594 1266 398C707 202 -3 256.396 -3 256.396V159.471Z"
+      fill="#538DD7"
+    />
+  </svg>
+</Box>
+
      <FormDiv/>
      <Text
     width="423px"
@@ -192,7 +193,7 @@ function Headers() {
      <Box
    
     top="1143.84px"
-    left="950px"
+    right="0"
     
     position="absolute"
   ><svg width="394" height="571" viewBox="0 0 394 571" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -202,7 +203,7 @@ function Headers() {
     width="370px"
     height="319px"
     top="1370px"
-    left="975px"
+    right="0"
     borderRadius="63.5px"
 
   
@@ -212,6 +213,7 @@ function Headers() {
     backgroundPosition="center"
     position="absolute"
   ><Image  src="https://ik.imagekit.io/ntmgxa7c6/istockphoto-1146425090-612x612_1__1_-removebg-preview%20(1).png?updatedAt=1696684791368"/></Box>
+  
     </Box>
   );
 }
